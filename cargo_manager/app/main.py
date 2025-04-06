@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return {"message": "Cargo Manager API Running 🚀"}
+    return {"message": "Cargo Manager API Running now 🚀"}
 
 @app.post("/place/")
 def place(item: Item):

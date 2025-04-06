@@ -8,7 +8,6 @@ mock_db = {
 }
 
 def place_items(item: Item):
-    # Simplified logic: just append for now
     mock_db["items"].append(item)
     return {"message": f"Item {item.id} placed"}
 
